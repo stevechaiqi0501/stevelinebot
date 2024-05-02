@@ -8,6 +8,6 @@ line_bot_api = LineBotApi(CHANNEL_ACCESS_TOKEN)
 
 USER_ID = "Ub897c4b81f83a61395247d96fc4a6b78"
 
-message = TextSendMessage(text="お誕生日おめでとうございます！")
+message = TextSendMessage(text="お誕生日おめでとうございますです！")
 
 line_bot_api.push_message(USER_ID, message)
